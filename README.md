@@ -1,6 +1,8 @@
 <!-- PROJECT HEADER -->
 <div align="center">
   
+![Global high seas regions overview](all-high-seas.png)
+
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
   <h3 align="center">AWS Data Engineering Capstone Project</h3>
