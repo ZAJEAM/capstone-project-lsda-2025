@@ -22,16 +22,46 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#project-goal">Project Goal</a></li>
-    <li><a href="#key-objectives">Key Objectives</a></li>
     <li><a href="#architecture-overview">Architecture Overview</a>
       <ul>
-        <li><a href="#starting-architecture">Starting Architecture</a></li>
         <li><a href="#supplementary-tools-used">Supplementary Tools Used</a></li>
-        <li><a href="#final-architecture">Final Architecture</a></li>
       </ul>
     </li>
+    <li><a href="#task-1-development-environment-setup">Task 1: Development Environment Setup</a>
+      <ul>
+        <li><a href="#11-environment-and-storage-setup">Environment and Storage Setup</a></li>
+        <li><a href="#download-and-inspect-source-data">Download and Inspect Source Data</a></li>
+        <li><a href="#12-data-transformation">Data Transformation</a></li>
+        <li><a href="#13-upload-for-analysis">Upload for Analysis</a></li>
+      </ul>
+    </li>
+    <li><a href="#task-2-aws-glue-crawler-and-multi-file-querying">Task 2: AWS Glue Crawler and Multi-File Querying</a>
+      <ul>
+        <li><a href="#21-prepare-and-upload-high-seas-data">Prepare and Upload High Seas Data</a></li>
+        <li><a href="#22-create-glue-database-and-run-crawler">Create Glue Database and Run Crawler</a></li>
+        <li><a href="#23-configure-athena-and-verify-schema-integration">Configure Athena and Verify Schema Integration</a></li>
+        <li><a href="#24-query-and-persist-analytical-results">Query and Persist Analytical Results</a></li>
+      </ul>
+    </li>
+    <li><a href="#task-3-schema-transformation-and-eez-data-integration">Task 3: Schema Transformation and EEZ Data Integration</a>
+      <ul>
+        <li><a href="#31-identify-schema-differences">Identify Schema Differences</a></li>
+        <li><a href="#32-align-schema-and-convert-format">Align Schema and Convert Format</a></li>
+        <li><a href="#33-upload-for-cataloging">Upload for Cataloging</a></li>
+      </ul>
+    </li>
+    <li><a href="#task-4-advanced-analytical-queries">Task 4: Advanced Analytical Queries</a>
+      <ul>
+        <li><a href="#41-top-fishing-nations-analysis">Top Fishing Nations Analysis</a></li>
+        <li><a href="#42-fishing-transparency-analysis">Fishing Transparency Analysis</a></li>
+        <li><a href="#43-high-value-species-identification">High-Value Species Identification</a></li>
+        <li><a href="#44-analytical-insights">Analytical Insights</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
   </ol>
 </details>
+
 
 ## Project Goal
 
